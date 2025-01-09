@@ -215,3 +215,28 @@ main section {
   margin-top: 50px;
 }
 
+/* footer styles */
+.footer{
+  display: flex;
+  padding: 130px 230px;
+  gap: 100px;
+}
+
+.footer-column {
+  width: 50%;
+}
+
+.footer input[type="text"], .footer input[type="email"], textarea {
+  height: 64px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+}
+
+textarea {
+  padding-bottom: 120px;
+}
